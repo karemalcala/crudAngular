@@ -9,3 +9,7 @@ Pasos para iniciar la app
     npm install -g grunt -cli
 
     grunt
+    
+Abrir navegador
+
+    localhost:9000
