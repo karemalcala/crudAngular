@@ -1,6 +1,6 @@
 Pasos para iniciar la app
 
-    git clone <URL>
+    git clone https://github.com/karemalcala/crudAngular
 
     cd crudangular
 
