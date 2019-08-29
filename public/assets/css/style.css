@@ -1,0 +1,235 @@
+/* Regular */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype"); }
+
+/* Light */
+@font-face {
+  font-family: "RobotoLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Roboto/Roboto-Light.ttf") format("truetype"); }
+
+/* Bold */
+@font-face {
+  font-family: "RobotoBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype"); }
+
+/* Black */
+@font-face {
+  font-family: "RobotoBlack";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Roboto/Roboto-Black.ttf") format("truetype"); }
+
+/************************************************ DESVANECER - APARECER ************************************************/
+.fadeIn {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fadeInDown {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown; }
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+.fadeInUp {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp; }
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+header {
+  padding: 1em 0;
+  text-align: center; }
+  header .page-title h1 {
+    font-family: "RobotoBold", sans-serif;
+    font-size: 32px;
+    color: #2f2f2f; }
+  header .page-search {
+    margin-top: 20px; }
+    header .page-search .content {
+      width: 240px;
+      margin: auto;
+      background: #fff;
+      border-radius: 3em;
+      border: 1px solid #888787; }
+      header .page-search .content i {
+        color: #888787;
+        margin-right: 8px; }
+      header .page-search .content input {
+        border: none;
+        height: 35px;
+        line-height: 33px;
+        padding: 0;
+        margin: 0;
+        background: transparent; }
+        header .page-search .content input::-webkit-input-placeholder {
+          font-style: italic;
+          color: #888787; }
+        header .page-search .content input:-ms-input-placeholder {
+          font-style: italic;
+          color: #888787; }
+        header .page-search .content input::-ms-input-placeholder {
+          font-style: italic;
+          color: #888787; }
+        header .page-search .content input::placeholder {
+          font-style: italic;
+          color: #888787; }
+        header .page-search .content input:focus {
+          outline: none; }
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(blue));
+  background: -webkit-linear-gradient(white, blue);
+  background: -o-linear-gradient(white, blue);
+  background: linear-gradient(white, blue);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh; }
+
+main {
+  margin-bottom: 50px; }
+  main[role=articles-list] .container {
+    background-color: #ffffffed;
+    border-radius: 15px;
+    padding: 2.5em; }
+    @media screen and (max-width: 767.98px) {
+      main[role=articles-list] .container .articles-list__head {
+        text-align: center; } }
+    main[role=articles-list] .container .articles-list__head form .form-group {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-top: 15px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    @media screen and (max-width: 767.98px) {
+      main[role=articles-list] .container .articles-list__head input {
+        margin-top: 10px; } }
+    main[role=articles-list] .container .articles-list__body {
+      margin-top: 35px; }
+      main[role=articles-list] .container .articles-list__body .grilla .person-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 10px 10px;
+        margin-bottom: 10px; }
+        main[role=articles-list] .container .articles-list__body .grilla .person-container .person-container-title .name-person {
+          font-size: 1.5rem; }
+          @media screen and (min-width: 767.98px) {
+            main[role=articles-list] .container .articles-list__body .grilla .person-container .person-container-title .name-person br {
+              display: none; } }
+          @media screen and (max-width: 767.98px) {
+            main[role=articles-list] .container .articles-list__body .grilla .person-container .person-container-title .name-person {
+              font-size: 1rem; }
+              main[role=articles-list] .container .articles-list__body .grilla .person-container .person-container-title .name-person span {
+                display: none; } }
+        @media screen and (max-width: 767.98px) {
+          main[role=articles-list] .container .articles-list__body .grilla .person-container .person-container-btn {
+            text-align: center;
+            max-width: 50%; } }
+        main[role=articles-list] .container .articles-list__body .grilla .person-container .person-container-btn .btn-edit, main[role=articles-list] .container .articles-list__body .grilla .person-container .person-container-btn .btn-remove {
+          border: none;
+          font-size: 1rem;
+          outline: none;
+          color: #fff; }
+        main[role=articles-list] .container .articles-list__body .grilla .person-container .person-container-btn .btn-edit {
+          margin-right: 20px;
+          background-color: green; }
+          @media screen and (max-width: 767.98px) {
+            main[role=articles-list] .container .articles-list__body .grilla .person-container .person-container-btn .btn-edit {
+              margin: auto;
+              margin-bottom: 10px; } }
+        main[role=articles-list] .container .articles-list__body .grilla .person-container .person-container-btn .btn-remove {
+          background-color: #cc0000; }
+      main[role=articles-list] .container .articles-list__body .grilla article:nth-child(odd) {
+        background-color: #e4e3e3; }
+      main[role=articles-list] .container .articles-list__body .grilla article:nth-child(even) {
+        background-color: #fff; }
+
+footer {
+  padding: 1em 2em;
+  text-align: end; }
+  footer .page-footer {
+    color: #fff; }
+    footer .page-footer h3 {
+      font-family: "RobotoBold", sans-serif;
+      font-size: 24px; }
+    footer .page-footer h4 {
+      font-family: "Roboto", sans-serif;
+      font-size: 20px; }

@@ -1,0 +1,15 @@
+footer{
+    padding: 1em 2em;
+    text-align: end;
+    .page-footer{
+        color: $c-white;
+        h3{
+            font-family: $f-bold;
+            font-size: $fs-subtitle;
+        }
+        h4{
+            font-family: $f-regular;
+            font-size: $fs-subtitle - 4px;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+<div>
+  <section class="articles-list__head">
+    <page-title></page-title>
+  </section>
+
+  <section class="articles-list__body">
+    <div>
+        <h2>Datos</h2>
+    </div>
+    <div class="grilla" id="searchTextResults">
+      <article class="person-container" ng-repeat="person in persons | filter:searchText">
+        <div class="person-container-title">
+            <person-name></person-name>
+        </div>
+        <div class="person-container-btn">
+            <person-btns></person-btns>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="articles-list-foot">
+    <paginador></paginador>
+  </section>
+</div>

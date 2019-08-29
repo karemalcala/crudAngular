@@ -1,0 +1,16 @@
+<form ng-submit="createPerson()">
+    <div class="form-group contenedor">
+        <div class="col-12 col-md-4">
+            <input type="text" class="form-control" ng-model="newPerson.name" placeholder="Nombre" />
+        </div>
+        <div class="col-12 col-md-4">
+            <input type="text" class="form-control" ng-model="newPerson.lastname" placeholder="Apellido" />
+        </div>
+        <div class="col-12 col-md-4">
+            <input type="hidden" ng-model="newPerson.id" />
+            <input type="submit" value="Agregar" class="btn btn-success btn-sm" ng-show="submit" />    
+            <input type="submit" value="Guardar" class="btn btn-success btn-sm" ng-show="edit" />    
+            <input type="button" value="Cancelar edición" ng-click="cancelEdit()" class="btn btn-danger btn-sm" ng-show="edit" />    
+        </div>
+    </div>
+</form>

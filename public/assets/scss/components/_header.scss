@@ -1,0 +1,42 @@
+header{
+    padding: 1em 0;
+    text-align: center;
+    .page-title{
+        h1{
+            font-family: $f-title;
+            font-size: $fs-title;
+            color: $c-letter-one;
+        }
+    }
+    .page-search{
+        margin-top: 20px;
+        .content{
+            width: 240px;
+            margin: auto;
+            background: #fff;
+            border-radius: 3em;
+            border: 1px solid #888787;
+            i{
+                color: $c-gray;
+                margin-right: 8px;
+            }
+            input{
+                border: none;
+                height: 35px;
+                line-height: 33px;
+                padding: 0;
+                margin: 0;
+                background: transparent;
+
+                &::placeholder{
+                    font-style: italic;
+                    color: $c-gray;
+                }
+
+                &:focus{
+                    outline: none;
+                }
+            }
+        }
+    }
+}

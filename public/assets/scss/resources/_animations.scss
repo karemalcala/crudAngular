@@ -1,0 +1,48 @@
+/************************************************ DESVANECER - APARECER ************************************************/
+.fadeIn{
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+} 
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+//Aparecer de arriba - abajo
+.fadeInDown{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+}
+@keyframes fadeInDown {
+    from{
+        opacity: 0;
+        transform: translate3d(0,-100%,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+  
+//Aparecer de abajo - arriba
+.fadeInUp{
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+}
+@keyframes fadeInUp {
+    from{
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}

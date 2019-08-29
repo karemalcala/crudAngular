@@ -1,0 +1,74 @@
+[
+  {
+    "id": "0",
+    "name": "Bulbasaur",
+    "lastname":"Last-Bulbasaur"
+  },
+  {
+    "id": "1",
+    "name": "Ivysaur",
+    "lastname":"Last-Ivysaur"
+  },
+  {
+    "id": "2",
+    "name": "Venusaur",
+    "lastname":"Last-Venusaur"
+  },
+  {
+    "id": "3",
+    "name": "Charmander",
+    "lastname":"Last-Charmander"
+  },
+  {
+    "id": "4",
+    "name": "Charmeleon",
+    "lastname":"Last-Charmeleon"
+  },
+  {
+    "id": "5",
+    "name": "Charizard",
+    "lastname":"Last-Charizard"
+  },
+  {
+    "id": "6",
+    "name": "Squirtle",
+    "lastname":"Last-Squirtle"
+  },
+  {
+    "id": "7",
+    "name": "Wartortle",
+    "lastname":"Last-Wartortle"
+  },
+  {
+    "id": "8",
+    "name": "Blastoise",
+    "lastname":"Last-Blastoise"
+  },
+  {
+    "id": "9",
+    "name": "Caterpie",
+    "lastname":"Last-Caterpie"
+  },
+  {
+    "id": "10",
+    "name": "Metapod",
+    "lastname":"Last-Metapod"
+    
+  },
+  {
+    "id": "012",
+    "name": "Metapod",
+    "lastname":"Last-Metapod"
+  },
+  {
+    "id": "013",
+    "name": "Weedle",
+    "lastname":"Last-Weedle"
+  },
+  {
+    "id": "014",
+    "name": "Kakuna",
+    "lastname":"Last-Kakuna"
+    
+  }
+]
